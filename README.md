@@ -7,3 +7,18 @@
 
 ## 온라인 코드 리뷰 과정
 * [텍스트와 이미지로 살펴보는 온라인 코드 리뷰 과정](https://github.com/next-step/nextstep-docs/tree/master/codereview)
+
+## 기능 목록 (for step1)
+* InputView
+* ResultView
+
+* Main
+* LottoGame
+  . 로또 구입금액 입력 - 발행된 티켓 return
+  . 당첨번호 입력 - 당첨확인 후 결과 return
+* LottoTicket(일급콜렉터)
+  . 로또번호 생성 - 자동 6개
+  . 로또번호 생성 - 수동 6개 (6개 숫자 parameter)
+  . 당첨확인 - 등수반환
+  . 유효성 검사 - 갯수(6개)
+  . 유효성 검사 - 구성(콤마, 범위내 숫자)
